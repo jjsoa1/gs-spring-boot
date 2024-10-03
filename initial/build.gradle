@@ -26,3 +26,7 @@ test {
 		exclude '**/*ITest*'
 	}
 }
+
+springBoot {
+	mainClass = 'cpm.example.springboot.Application'
+}
